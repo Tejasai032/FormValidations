@@ -9,12 +9,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("bg.jpg");
+    background-size: cover;
 }
 
 #container{
     width:300px;
     height:400px;
     box-shadow: 0 0 12px silver;
+    border-radius: 8px;
 }
 
 form{
@@ -32,8 +35,18 @@ form h2{
 input{
     height:30px;
     outline: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
 }
 
 button{
     height:35px;
+    background-color: rgb(42, 105, 250);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
